@@ -1,0 +1,57 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="Lord_of_the_Math.Sayfalar.Gameoverclassic"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="False" BackKeyPress="PhoneApplicationPage_BackKeyPress_1">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid HorizontalAlignment="Left" Height="804" VerticalAlignment="Top" Width="480" Background="#FFECF0F1" Margin="0,0,0,-36">
+        <TextBlock Margin="10,200,10,0" TextWrapping="Wrap" Text="GAME OVER" VerticalAlignment="Top" Height="98" Foreground="#FF2C3E50" FontSize="72" TextAlignment="Center" FontFamily="Times New Roman" FontWeight="Bold"/>
+        <TextBlock Name="txt" Margin="80,282,80,0" TextWrapping="Wrap" Text="Open next Level :)" VerticalAlignment="Top" Height="55" Foreground="#FF2C3E50" FontSize="36" TextAlignment="Center" FontFamily="Times New Roman" FontStyle="Italic"/>
+        <Border BorderThickness="1" Margin="25,451,0,0" Background="#FFE67E22" CornerRadius="20 " x:Name="rtnbtn" HorizontalAlignment="Left" Width="100" Height="100" VerticalAlignment="Top" >
+            <Image x:Name="trybtn" Source="/resimler/refresh.png" Stretch="UniformToFill" Margin="9" RenderTransformOrigin="0.472,0.425" Tap="trybtn_Tap" />
+        </Border>
+        <Border x:Name="home" BorderThickness="1" Margin="190,451,190,0" Background="#FFE67E22" CornerRadius="20 " Height="100" VerticalAlignment="Top" Tap="home_Tap"  >
+            <Image Source="/resimler/home.png" Stretch="UniformToFill" Margin="9" RenderTransformOrigin="0.472,0.425" />
+        </Border>
+        <Border x:Name="selectbtn" BorderThickness="1" Margin="0,451,25,0" Background="#FFE67E22" CornerRadius="20 " HorizontalAlignment="Right" Width="100" Height="100" VerticalAlignment="Top" Tap="selectbtn_Tap"  >
+            <Image Source="/resimler/selectlevel.png" Stretch="UniformToFill" Margin="9" RenderTransformOrigin="0.472,0.425" />
+        </Border>
+        <TextBlock HorizontalAlignment="Left" Margin="25,551,0,0" TextWrapping="Wrap" Text="Try Again" VerticalAlignment="Top" Width="100" Foreground="#FF2C3E50" TextAlignment="Center" FontFamily="Times New Roman"/>
+        <TextBlock HorizontalAlignment="Left" Margin="190,551,0,0" TextWrapping="Wrap" Text="HOME" VerticalAlignment="Top" Width="100" Foreground="#FF2C3E50" TextAlignment="Center" FontFamily="Times New Roman"/>
+        <TextBlock HorizontalAlignment="Left" Margin="355,551,0,0" TextWrapping="Wrap" Text="Select level" VerticalAlignment="Top" Width="100" Foreground="#FF2C3E50" TextAlignment="Center" FontFamily="Times New Roman"/>
+        <TextBlock  Name="hstext" Margin="-4.844,75.153,24.844,667.89" TextWrapping="Wrap" Text="New High Score" FontSize="48" TextAlignment="Center" FontFamily="Times New Roman" RenderTransformOrigin="0.5,0.5" FontStyle="Italic" UseLayoutRounding="False" d:LayoutRounding="Auto" >
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF2C3E50" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                    <GradientStop Color="#FF536270" Offset="0.494"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+            <TextBlock.RenderTransform>
+                <CompositeTransform Rotation="-24.692"/>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <TextBlock Margin="146,337,0,0" TextWrapping="Wrap" Text="Score:" VerticalAlignment="Top" Height="44" Foreground="#FF2C3E50" FontSize="36" TextAlignment="Center" FontFamily="Times New Roman" FontWeight="Bold" HorizontalAlignment="Left" Width="107"/>
+        <TextBlock Margin="146,381,0,0" TextWrapping="Wrap" Text="Best  :" VerticalAlignment="Top" Height="41" Foreground="#FF2C3E50" FontSize="36" TextAlignment="Center" FontFamily="Times New Roman" FontWeight="Bold" HorizontalAlignment="Left" Width="107"/>
+        <TextBlock  Name="scrtxt" Margin="258,337,0,0" TextWrapping="Wrap" Text="22" VerticalAlignment="Top" Height="44" Foreground="#FF2C3E50" FontSize="36" FontFamily="Times New Roman" FontWeight="Bold" HorizontalAlignment="Left" Width="107"/>
+        <TextBlock  Name="hscrtxt" Margin="258,381,0,0" TextWrapping="Wrap" Text="22" VerticalAlignment="Top" Height="44" Foreground="#FF2C3E50" FontSize="36" FontFamily="Times New Roman" FontWeight="Bold" HorizontalAlignment="Left" Width="107" RenderTransformOrigin="0.492,0.595"/>
+        <TextBlock x:Name="level" Margin="-126.069,364.787,146.069,0" TextWrapping="Wrap" Text="EASY" VerticalAlignment="Top" Height="37.785" Foreground="#e98b39" FontSize="36" TextAlignment="Center" FontFamily="Times New Roman" RenderTransformOrigin="0.503,0.617" UseLayoutRounding="False" d:LayoutRounding="Auto" FontStyle="Italic">
+            <TextBlock.RenderTransform>
+                <CompositeTransform Rotation="-48.327" TranslateX="2.922" TranslateY="-2.705"/>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <MediaElement HorizontalAlignment="Left" Height="100"  VerticalAlignment="Top" Width="100" Source="/sesler/fail.wav" Volume="1"/>
+    </Grid>
+
+
+</phone:PhoneApplicationPage>

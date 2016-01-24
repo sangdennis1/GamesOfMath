@@ -1,0 +1,79 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="Lord_of_the_Math.Highscore"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True"    shell:SystemTray.BackgroundColor="#FFF39C12" 
+    shell:SystemTray.ForegroundColor="#2c3e50" 
+    shell:SystemTray.Opacity="1" BorderBrush="#FF95A5A6" Background="#FF95A5A6">
+    <Grid HorizontalAlignment="Left" Width="480" Background="#FFECF0F1">
+        <TextBlock Margin="0,10,0,0" TextWrapping="Wrap" Text="True or False" VerticalAlignment="Top" Height="55" Foreground="#FF2C3E50" FontSize="36" FontFamily="Times New Roman" FontStyle="Italic" TextAlignment="Center"/>
+        <TextBlock Margin="10,70,266,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="55" Foreground="#FF2C3E50" FontSize="36" FontFamily="Times New Roman" FontStyle="Italic">
+        	<Run Text="Easy"/>
+        	<Run Text="   "/>
+        	<Run Text=":"/>
+        </TextBlock>
+        <TextBlock Margin="10,130,266,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="55" Foreground="#FF2C3E50" FontSize="36" FontFamily="Times New Roman" FontStyle="Italic">
+        	<Run Text="Medium"/>
+        	<Run Text="  :"/>
+        </TextBlock>
+        <TextBlock Margin="10,190,266,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="55" Foreground="#FF2C3E50" FontSize="36" FontFamily="Times New Roman" FontStyle="Italic">
+        	<Run Text="Hard"/>
+        	<Run Text="  :"/>
+        </TextBlock>
+        <TextBlock Margin="0,250,0,0" TextWrapping="Wrap" Text="Classic Game" VerticalAlignment="Top" Height="49" Foreground="#FF2C3E50" FontSize="36" FontFamily="Times New Roman" FontStyle="Italic" TextAlignment="Center"/>
+        <TextBlock Margin="10,304,266,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="55" Foreground="#FF2C3E50" FontSize="36" FontFamily="Times New Roman" FontStyle="Italic">
+        	<Run Text="Easy "/>
+        	<Run Text=":"/>
+        </TextBlock>
+        <TextBlock Margin="10,364,266,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="55" Foreground="#FF2C3E50" FontSize="36" FontFamily="Times New Roman" FontStyle="Italic">
+        	<Run Text="Medium"/>
+        	<Run Text="  :"/>
+        </TextBlock>
+        <TextBlock Margin="10,424,266,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="55" Foreground="#FF2C3E50" FontSize="36" FontFamily="Times New Roman" FontStyle="Italic">
+        	<Run Text="Hard"/>
+        	<Run Text=" :"/>
+        </TextBlock>
+        <TextBlock Margin="0,484,0,0" TextWrapping="Wrap" Text="Reverse Game" VerticalAlignment="Top" Height="55" Foreground="#FF2C3E50" FontSize="36" FontFamily="Times New Roman" FontStyle="Italic" TextAlignment="Center"/>
+        <TextBlock Margin="10,539,266,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="55" Foreground="#FF2C3E50" FontSize="36" FontFamily="Times New Roman" FontStyle="Italic">
+        	<Run Text="Easy"/>
+        	<Run Text=" :"/>
+        </TextBlock>
+        <TextBlock Margin="10,599,266,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="55" Foreground="#FF2C3E50" FontSize="36" FontFamily="Times New Roman" FontStyle="Italic">
+        	<Run Text="Medium"/>
+        	<Run Text=" :"/>
+        </TextBlock>
+        <TextBlock Margin="10,659,266,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="55" Foreground="#FF2C3E50" FontSize="36" FontFamily="Times New Roman" FontStyle="Italic">
+        	<Run Text="Hard"/>
+        	<Run Text=" :"/>
+        </TextBlock>
+        <Border BorderThickness="1" Margin="150,0" Background="#FFE67E22" BorderBrush="#FFE67E22" Height="54" VerticalAlignment="Bottom">
+            <TextBlock TextWrapping="Wrap" Text="RESET" Margin="-1" Foreground="#FF2C3E50" FontSize="36" TextAlignment="Center" Tap="TextBlock_Tap"/>
+        </Border>
+        <TextBlock x:Name="tf1" Margin="117.045,70,274.955,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="55" Foreground="#FF2C3E50" FontSize="36" FontFamily="Times New Roman" FontStyle="Italic" Text="0" TextAlignment="Center" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <TextBlock.RenderTransform>
+                <CompositeTransform Rotation="0.391"/>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <TextBlock x:Name="tf2" Margin="159,130,233,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="55" Foreground="#FF2C3E50" FontSize="36" FontFamily="Times New Roman" FontStyle="Italic" Text="0" TextAlignment="Center"/>
+        <TextBlock x:Name="tf3" Margin="110,190,282,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="55" Foreground="#FF2C3E50" FontSize="36" FontFamily="Times New Roman" FontStyle="Italic" Text="0" TextAlignment="Center"/>
+        <TextBlock x:Name="cg1" Margin="102,304,290,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="55" Foreground="#FF2C3E50" FontSize="36" FontFamily="Times New Roman" FontStyle="Italic" Text="0" TextAlignment="Center"/>
+        <TextBlock x:Name="cg2" Margin="156,364,236,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="55" Foreground="#FF2C3E50" FontSize="36" FontFamily="Times New Roman" FontStyle="Italic" Text="0" TextAlignment="Center"/>
+        <TextBlock x:Name="cg3" Margin="105,424,287,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="55" Foreground="#FF2C3E50" FontSize="36" FontFamily="Times New Roman" FontStyle="Italic" Text="0" TextAlignment="Center"/>
+        <TextBlock x:Name="rg1" Margin="101,539,291,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="55" Foreground="#FF2C3E50" FontSize="36" FontFamily="Times New Roman" FontStyle="Italic" Text="0" TextAlignment="Center"/>
+        <TextBlock x:Name="rg2" Margin="149,599,243,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="55" Foreground="#FF2C3E50" FontSize="36" FontFamily="Times New Roman" FontStyle="Italic" Text="0" TextAlignment="Center"/>
+        <TextBlock x:Name="rg3" Margin="105,659,287,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="55" Foreground="#FF2C3E50" FontSize="36" FontFamily="Times New Roman" FontStyle="Italic" Text="0" TextAlignment="Center"/>
+    </Grid>
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+
+
+</phone:PhoneApplicationPage>

@@ -1,0 +1,77 @@
+C:\Users\uğur\Desktop\Projeler\Cahil misin\Cahil misin\Bin\Release\Assets\ApplicationIcon.png
+C:\Users\uğur\Desktop\Projeler\Cahil misin\Cahil misin\Bin\Release\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\uğur\Desktop\Projeler\Cahil misin\Cahil misin\Bin\Release\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\uğur\Desktop\Projeler\Cahil misin\Cahil misin\Bin\Release\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\uğur\Desktop\Projeler\Cahil misin\Cahil misin\Bin\Release\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\uğur\Desktop\Projeler\Cahil misin\Cahil misin\Bin\Release\Assets\Tiles\IconicTileSmall.png
+C:\Users\uğur\Desktop\Projeler\Cahil misin\Cahil misin\Bin\Release\Cahil misin.dll
+C:\Users\uğur\Desktop\Projeler\Cahil misin\Cahil misin\Bin\Release\Cahil misin.pdb
+C:\Users\uğur\Desktop\Projeler\Cahil misin\Cahil misin\Bin\Release\AppManifest.xaml
+C:\Users\uğur\Desktop\Projeler\Cahil misin\Cahil misin\Bin\Release\Properties\WMAppManifest.xml
+C:\Users\uğur\Desktop\Projeler\Cahil misin\Cahil misin\Bin\Release\Cahil_misin_Release_AnyCPU.xap
+C:\Users\uğur\Desktop\Projeler\Cahil misin\Cahil misin\obj\Release\App.g.cs
+C:\Users\uğur\Desktop\Projeler\Cahil misin\Cahil misin\obj\Release\Hakkında.g.cs
+C:\Users\uğur\Desktop\Projeler\Cahil misin\Cahil misin\obj\Release\MainPage.g.cs
+C:\Users\uğur\Desktop\Projeler\Cahil misin\Cahil misin\obj\Release\Sonuc.g.cs
+C:\Users\uğur\Desktop\Projeler\Cahil misin\Cahil misin\obj\Release\Yarışma.g.cs
+C:\Users\uğur\Desktop\Projeler\Cahil misin\Cahil misin\obj\Release\Cahil misin.g.resources
+C:\Users\uğur\Desktop\Projeler\Cahil misin\Cahil misin\obj\Release\Cahil_misin.Resources.AppResources.resources
+C:\Users\uğur\Desktop\Projeler\Cahil misin\Cahil misin\obj\Release\Cahil misin.csproj.GenerateResource.Cache
+C:\Users\uğur\Desktop\Projeler\Cahil misin\Cahil misin\obj\Release\Cahil misin.dll
+C:\Users\uğur\Desktop\Projeler\Cahil misin\Cahil misin\obj\Release\Cahil misin.pdb
+C:\Users\uğur\Desktop\Projeler\Cahil misin\Cahil misin\obj\Release\XapCacheFile.xml
+C:\Users\uğur\Desktop\Projeler\Cahil misin\Cahil misin\Bin\Release\GoogleAds.dll
+C:\Users\uğur\Desktop\Projeler\Cahil misin\Cahil misin\Bin\Release\GoogleAds.xml
+C:\Users\uğur\Desktop\Projeler\Cahil misin\Cahil misin\obj\Release\Cahil misin.csprojResolveAssemblyReference.cache
+D:\Masaüstü\Cahil misin\Cahil misin\Bin\Release\Assets\ApplicationIcon.png
+D:\Masaüstü\Cahil misin\Cahil misin\Bin\Release\Assets\Tiles\FlipCycleTileLarge.png
+D:\Masaüstü\Cahil misin\Cahil misin\Bin\Release\Assets\Tiles\FlipCycleTileMedium.png
+D:\Masaüstü\Cahil misin\Cahil misin\Bin\Release\Assets\Tiles\FlipCycleTileSmall.png
+D:\Masaüstü\Cahil misin\Cahil misin\Bin\Release\Assets\Tiles\IconicTileMediumLarge.png
+D:\Masaüstü\Cahil misin\Cahil misin\Bin\Release\Assets\Tiles\IconicTileSmall.png
+D:\Masaüstü\Cahil misin\Cahil misin\Bin\Release\Cahil misin.dll
+D:\Masaüstü\Cahil misin\Cahil misin\Bin\Release\Cahil misin.pdb
+D:\Masaüstü\Cahil misin\Cahil misin\Bin\Release\AppManifest.xaml
+D:\Masaüstü\Cahil misin\Cahil misin\Bin\Release\Properties\WMAppManifest.xml
+D:\Masaüstü\Cahil misin\Cahil misin\Bin\Release\GoogleAds.xml
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Release\Cahil misin.csprojResolveAssemblyReference.cache
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Release\App.g.cs
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Release\Highscore.g.cs
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Release\MainPage.g.cs
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Release\Sayfalar\classicgame.g.cs
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Release\Sayfalar\classicgamelevel.g.cs
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Release\Sayfalar\classicgamelimitless.g.cs
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Release\Sayfalar\GameOver.g.cs
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Release\Sayfalar\Gameoverclassic.g.cs
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Release\Sayfalar\GameOverreverse.g.cs
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Release\Sayfalar\Levelbitti.g.cs
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Release\Sayfalar\Levelbitticlassic.g.cs
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Release\Sayfalar\Levelbittireverse.g.cs
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Release\Sayfalar\Oyunlar.g.cs
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Release\Sayfalar\reservegame.g.cs
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Release\Sayfalar\reversegamelevel.g.cs
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Release\Sayfalar\reversegamelimitless.g.cs
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Release\Sayfalar\sürebitti.g.cs
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Release\Sayfalar\sürebitticlassic.g.cs
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Release\Sayfalar\sürebittireverse.g.cs
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Release\Sayfalar\TrueorFalse.g.cs
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Release\Sayfalar\trueorfalselevel.g.cs
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Release\Sayfalar\Trueorfalselimitless.g.cs
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Release\Cahil misin.g.resources
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Release\Cahil_misin.Resources.AppResources.resources
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Release\Cahil misin.csproj.GenerateResource.Cache
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Release\Cahil misin.dll
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Release\Cahil misin.pdb
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Release\XapCacheFile.xml
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Release\Sayfalar\Cikis.g.cs
+D:\Masaüstü\Cahil misin\Cahil misin\Bin\Release\en\Cahil misin.resources.dll
+D:\Masaüstü\Cahil misin\Cahil misin\Bin\Release\Games_of_Math_Release_AnyCPU.xap
+D:\Masaüstü\Cahil misin\Cahil misin\Bin\Release\System.Net.Http.Primitives.dll
+D:\Masaüstü\Cahil misin\Cahil misin\Bin\Release\System.Net.Http.xml
+D:\Masaüstü\Cahil misin\Cahil misin\Bin\Release\System.Net.Http.Primitives.xml
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Release\Cahil_misin.Resources.AppResources.en.resources
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Release\en\Cahil misin.resources.dll
+D:\Masaüstü\Cahil misin\Cahil misin\Bin\Release\Microsoft.Advertising.Mobile.dll
+D:\Masaüstü\Cahil misin\Cahil misin\Bin\Release\Microsoft.Advertising.Mobile.UI.dll
+D:\Masaüstü\Cahil misin\Cahil misin\Bin\Release\Microsoft.Advertising.Mobile.UI.xml
+D:\Masaüstü\Cahil misin\Cahil misin\Bin\Release\Microsoft.Advertising.Mobile.xml

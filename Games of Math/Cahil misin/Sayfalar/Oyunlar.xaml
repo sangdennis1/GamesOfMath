@@ -1,0 +1,155 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="Lord_of_The_Math.Sayfalar.Oyunlar"
+    xmlns:GoogleAds="clr-namespace:GoogleAds;assembly=GoogleAds"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True"    shell:SystemTray.BackgroundColor="#FFF39C12" 
+    shell:SystemTray.ForegroundColor="#2c3e50" 
+    shell:SystemTray.Opacity="1"  BorderBrush="#FFF39C12" Background="#FFF39C12" BackKeyPress="PhoneApplicationPage_BackKeyPress">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+
+        <Grid x:Name="ContentPanel" Background="#FFECF0F1">
+
+            <Grid HorizontalAlignment="Left" Width="480" Margin="0,0,0,576" Height="192" VerticalAlignment="Bottom">
+                <Border BorderThickness="1" Margin="271,41,109,0" Background="#FFE67E22" CornerRadius="20 " x:Name="play" Tap="play_Tap" Height="100" VerticalAlignment="Top">
+                    <Image HorizontalAlignment="Left" Source="/resimler/Play.png" Stretch="UniformToFill" Margin="13,9,0,9" Width="80" RenderTransformOrigin="0.472,0.425" />
+                </Border>
+
+                <TextBlock Margin="36,60,240,0" TextWrapping="Wrap" Text="True or False" VerticalAlignment="Top" Height="55" Foreground="#FF2C3E50" FontSize="36" FontFamily="Times New Roman" FontStyle="Italic"/>
+                <Image x:Name="about" Margin="0,20,10,122" Source="/resimler/about.png" Tap="about_Tap" HorizontalAlignment="Right" Width="50"/>
+            </Grid>
+            <Grid HorizontalAlignment="Left" Margin="0,0,0,384" Width="480" Height="192" VerticalAlignment="Bottom">
+                <Border BorderThickness="1" Margin="271,41,109,0" Background="#FFE67E22" CornerRadius="20 " x:Name="play1" Tap="play1_Tap" Height="100" VerticalAlignment="Top" >
+                    <Image HorizontalAlignment="Left" Source="/resimler/Play.png" Stretch="UniformToFill" Margin="13,9,0,9" Width="80" RenderTransformOrigin="0.472,0.425" />
+                </Border>
+                <TextBlock Margin="36,60,236,0" TextWrapping="Wrap" Text="Classic Game" Foreground="#FF2C3E50" FontSize="36" FontFamily="Times New Roman" FontStyle="Italic" Height="49" VerticalAlignment="Top"/>
+                <Image x:Name="about1" Margin="420,20,10,0" Source="/resimler/about.png" Tap="about1_Tap" Height="50" VerticalAlignment="Top"/>
+            </Grid>
+            <Grid HorizontalAlignment="Left" Width="480" Margin="0,576,0,0">
+
+                <Image x:Name="image" Source="/resimler/comingsoon.png" Stretch="Fill" Height="192" VerticalAlignment="Bottom"/>
+            </Grid>
+            <Grid HorizontalAlignment="Left" Margin="0,0,0,192" Width="480" Height="192" VerticalAlignment="Bottom">
+                <Border BorderThickness="1" Margin="271,41,109,0" Background="#FFE67E22" CornerRadius="20 " x:Name="play2" Tap="play2_Tap" Height="100" VerticalAlignment="Top" >
+                    <Image HorizontalAlignment="Left" Source="/resimler/Play.png" Stretch="UniformToFill" Margin="13,9,0,9" Width="80" RenderTransformOrigin="0.472,0.425" />
+                </Border>
+                <TextBlock Margin="29,60,214,0" TextWrapping="Wrap" Foreground="#FF2C3E50" FontSize="36" FontFamily="Times New Roman" FontStyle="Italic" Height="59" VerticalAlignment="Top">
+                	<Run Text="Reverse"/>
+                	<Run Text=" Game"/>
+                </TextBlock>
+                <Image x:Name="about2" Margin="420,20,10,0" Source="/resimler/about.png" Height="50" VerticalAlignment="Top" Tap="about2_Tap"/>
+            </Grid>
+
+
+            <Border  HorizontalAlignment="Left" Margin="-59,192,-27,0" Width="566" RenderTransformOrigin="0.5,0.5" Background="White" Height="5" VerticalAlignment="Top"/>
+            <Border  HorizontalAlignment="Left" Margin="-59,384,-27,0" Width="566" RenderTransformOrigin="0.5,0.5" Background="White" Height="5" VerticalAlignment="Top"/>
+            <Border   HorizontalAlignment="Left" Margin="-59,576,-27,0" Width="566" RenderTransformOrigin="0.5,0.5" Background="White" Height="5" VerticalAlignment="Top"/>
+
+        </Grid>
+        <Grid x:Name="trueorfalsehelp" Background="#FFFBFCFC" Opacity="0.95" Visibility="Collapsed" >
+            <Image x:Name="exit" Height="75" Margin="400,5,5,0" VerticalAlignment="Top" Source="/resimler/close.png" Tap="exit_Tap"/>
+            <TextBlock Margin="80,5,80,0" TextWrapping="Wrap" Text="True or False" VerticalAlignment="Top" Height="65" Foreground="#FF2C3E50" FontSize="48" FontFamily="Times New Roman" FontStyle="Italic" TextAlignment="Center" FontWeight="Bold"/>
+            <TextBlock HorizontalAlignment="Left" Margin="0,75,0,0" TextWrapping="Wrap" Text="How to Play ?" VerticalAlignment="Top" Height="65" Width="480" Foreground="#FF2C3E50" FontSize="36" FontFamily="Times New Roman" FontStyle="Italic" TextAlignment="Center"/>
+            <TextBlock HorizontalAlignment="Left" Margin="-10,145,0,0" TextWrapping="Wrap" Text="X+Y=Z" VerticalAlignment="Top" Height="57" Width="480" Foreground="#FF2C3E50" FontSize="36" FontFamily="Times New Roman" TextAlignment="Center"/>
+            <TextBlock HorizontalAlignment="Left" Margin="0,202,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="57" Width="480" Foreground="#FF2C3E50" FontSize="36" FontFamily="Times New Roman" TextAlignment="Center" Text="Click if it is true"/>
+            <Border BorderThickness="1" Margin="190,259,190,409" Background="#FF3498DB" CornerRadius="20 " x:Name="doğru"  >
+                <Image Source="/resimler/dogru.png" Stretch="UniformToFill" Margin="9" RenderTransformOrigin="0.472,0.425" />
+            </Border>
+            <TextBlock HorizontalAlignment="Left" Margin="0,359,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="57" Width="480" Foreground="#FF2C3E50" FontSize="36" FontFamily="Times New Roman" TextAlignment="Center">
+            	<Run Text="Click if it is "/>
+            	<Run Text="false"/>
+            </TextBlock>
+            <Border BorderThickness="1" Margin="190,416,0,0" Background="#FFE74C3C" CornerRadius="20 " x:Name="yanlıs" Height="100" Width="100" VerticalAlignment="Top"  HorizontalAlignment="Left">
+                <Image Source="/resimler/yanlis.png" Stretch="UniformToFill" Margin="9" RenderTransformOrigin="0.472,0.425" />
+            </Border>
+            <TextBlock HorizontalAlignment="Left" Margin="0,521,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="57" Width="480" Foreground="#FF2C3E50" FontSize="36" FontFamily="Times New Roman" TextAlignment="Center" Text="Note that the time"/>
+            <Border BorderThickness="3" Height="65" Margin="40,578,40,0" VerticalAlignment="Top" Background="#FF2C3E50">
+                <Border x:Name="border" BorderBrush="{x:Null}" BorderThickness="1" Background="#FFE74E3B" RenderTransformOrigin="0.5,0.5" Margin="0,0,308,0">
+                    <Border.RenderTransform>
+                        <CompositeTransform/>
+                    </Border.RenderTransform>
+                </Border>
+            </Border>
+            <TextBlock Margin="0,643,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="55" Foreground="#FF2C3E50" FontSize="36" FontFamily="Times New Roman" TextAlignment="Center" Text="Try to make the highest score"/>
+            <TextBlock Margin="0,698,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="55" Foreground="#FF2C3E50" FontSize="48" FontFamily="Times New Roman" TextAlignment="Center" Text="Good luck"/>
+        </Grid>
+        <Grid x:Name="classichelp" Background="#FFFBFCFC" Opacity="0.95" Visibility="Collapsed" >
+            <Image x:Name="exit1" Height="75" Margin="400,5,5,0" VerticalAlignment="Top" Source="/resimler/close.png" Tap="exit1_Tap"/>
+            <TextBlock Margin="80,5,80,0" TextWrapping="Wrap" Text="Classic Game" VerticalAlignment="Top" Height="65" Foreground="#FF2C3E50" FontSize="48" FontFamily="Times New Roman" FontStyle="Italic" TextAlignment="Center" FontWeight="Bold"/>
+            <TextBlock HorizontalAlignment="Left" Margin="0,75,0,0" TextWrapping="Wrap" Text="How to Play ?" VerticalAlignment="Top" Height="65" Width="480" Foreground="#FF2C3E50" FontSize="36" FontFamily="Times New Roman" FontStyle="Italic" TextAlignment="Center"/>
+            <TextBlock HorizontalAlignment="Left" Margin="-10,145,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="57" Width="480" Foreground="#FF2C3E50" FontSize="36" FontFamily="Times New Roman" TextAlignment="Center">
+            	<Run Text="X+Y="/>
+            	<Run Text="?"/>
+            </TextBlock>
+            <TextBlock HorizontalAlignment="Left" Margin="0,202,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="57" Width="480" Foreground="#FF2C3E50" FontSize="36" FontFamily="Times New Roman" TextAlignment="Center" Text=" Click on the result"/>
+            <TextBlock HorizontalAlignment="Left" Margin="0,521,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="57" Width="480" Foreground="#FF2C3E50" FontSize="36" FontFamily="Times New Roman" TextAlignment="Center" Text="Note that the time"/>
+            <Border BorderThickness="3" Height="65" Margin="40,578,40,0" VerticalAlignment="Top" Background="#FF2C3E50">
+                <Border x:Name="border1" BorderBrush="{x:Null}" BorderThickness="1" Background="#FFE74E3B" RenderTransformOrigin="0.5,0.5" Margin="0,0,308,0">
+                    <Border.RenderTransform>
+                        <CompositeTransform/>
+                    </Border.RenderTransform>
+                </Border>
+            </Border>
+            <Border BorderThickness="1" Margin="125,264,0,0" Background="#FFE67E22" CornerRadius="20 "  HorizontalAlignment="Left" Width="100" Height="100" VerticalAlignment="Top"  >
+                <TextBlock x:Name="cevap1" Margin="-1,7,-1,9" TextWrapping="Wrap" Text="A" FontSize="72" Foreground="#FF2C3E50" FontFamily="Tahoma" TextAlignment="Center" LineHeight="72"/>
+            </Border>
+            <TextBlock Margin="0,643,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="55" Foreground="#FF2C3E50" FontSize="36" FontFamily="Times New Roman" TextAlignment="Center" Text="Try to make the highest score"/>
+            <TextBlock Margin="0,698,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="55" Foreground="#FF2C3E50" FontSize="48" FontFamily="Times New Roman" TextAlignment="Center" Text="Good luck"/>
+            <Border BorderThickness="1" Margin="0,264,125,0" Background="#FFE67E22" CornerRadius="20 " Height="100" VerticalAlignment="Top"  HorizontalAlignment="Right" Width="100" >
+                <TextBlock x:Name="cevap2" Margin="-1,7,-1,9" TextWrapping="Wrap" Text="B" FontSize="72" Foreground="#FF2C3E50" FontFamily="Tahoma" TextAlignment="Center" LineHeight="72"/>
+            </Border>
+            <Border BorderThickness="1" Margin="125,394,0,0" Background="#FFE67E22" CornerRadius="20 "  HorizontalAlignment="Left" Width="100" Height="100" VerticalAlignment="Top"  >
+                <TextBlock x:Name="cevap3" Margin="-1,7,-1,9" TextWrapping="Wrap" Text="C" FontSize="72" Foreground="#FF2C3E50" FontFamily="Tahoma" TextAlignment="Center" LineHeight="72"/>
+            </Border>
+            <Border BorderThickness="1" Margin="255,394,0,0" Background="#FFE67E22" CornerRadius="20 "  HorizontalAlignment="Left" Width="100" Height="100" VerticalAlignment="Top">
+                <TextBlock x:Name="cevap4" Margin="-1,7,-1,9" TextWrapping="Wrap" Text="D" FontSize="72" Foreground="#FF2C3E50" FontFamily="Tahoma" TextAlignment="Center" LineHeight="72"/>
+            </Border>
+        </Grid>
+        <Grid x:Name="Reversehelp" Background="#FFFBFCFC" Opacity="0.95" Visibility="Collapsed" >
+            <Image x:Name="exit2" Height="75" Margin="400,5,5,0" VerticalAlignment="Top" Source="/resimler/close.png" Tap="exit2_Tap"/>
+            <TextBlock Margin="80,5,80,0" TextWrapping="Wrap" Text="Reverse Game" VerticalAlignment="Top" Height="65" Foreground="#FF2C3E50" FontSize="48" FontFamily="Times New Roman" FontStyle="Italic" TextAlignment="Center" FontWeight="Bold"/>
+            <TextBlock HorizontalAlignment="Left" Margin="0,75,0,0" TextWrapping="Wrap" Text="How to Play ?" VerticalAlignment="Top" Height="65" Width="480" Foreground="#FF2C3E50" FontSize="36" FontFamily="Times New Roman" FontStyle="Italic" TextAlignment="Center"/>
+            <TextBlock HorizontalAlignment="Left" Margin="-10,145,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="57" Width="480" Foreground="#FF2C3E50" FontSize="36" FontFamily="Times New Roman" TextAlignment="Center">
+            	<Run Text="X?Y="/>
+            	<Run Text="Z"/>
+            </TextBlock>
+            <TextBlock HorizontalAlignment="Left" Margin="0,202,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="57" Width="480" Foreground="#FF2C3E50" FontSize="36" FontFamily="Times New Roman" TextAlignment="Center" Text=" Click on the result"/>
+            <TextBlock HorizontalAlignment="Left" Margin="0,521,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="57" Width="480" Foreground="#FF2C3E50" FontSize="36" FontFamily="Times New Roman" TextAlignment="Center" Text="Note that the time"/>
+            <Border BorderThickness="3" Height="65" Margin="40,578,40,0" VerticalAlignment="Top" Background="#FF2C3E50">
+                <Border x:Name="border2" BorderBrush="{x:Null}" BorderThickness="1" Background="#FFE74E3B" RenderTransformOrigin="0.5,0.5" Margin="0,0,308,0">
+                    <Border.RenderTransform>
+                        <CompositeTransform/>
+                    </Border.RenderTransform>
+                </Border>
+            </Border>
+            <Border BorderThickness="1" Margin="125,264,0,0" Background="#FF1ABC9C" CornerRadius="20 "  HorizontalAlignment="Left" Width="100" Height="100" VerticalAlignment="Top"  >
+                <Image Source="/resimler/topla.png" Margin="9"></Image>
+            </Border>
+            <TextBlock Margin="0,643,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="55" Foreground="#FF2C3E50" FontSize="36" FontFamily="Times New Roman" TextAlignment="Center" Text="Try to make the highest score"/>
+            <TextBlock Margin="0,698,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="55" Foreground="#FF2C3E50" FontSize="48" FontFamily="Times New Roman" TextAlignment="Center" Text="Good luck"/>
+            <Border BorderThickness="1" Margin="0,264,125,0" Background="#FF3498DB" CornerRadius="20 " Height="100" VerticalAlignment="Top"  HorizontalAlignment="Right" Width="100" >
+                <Image Source="/resimler/carp.png" Margin="9"/>
+            </Border>
+            <Border BorderThickness="1" Margin="125,394,0,0" Background="#FFF1C40F" CornerRadius="20 "  HorizontalAlignment="Left" Width="100" Height="100" VerticalAlignment="Top"  >
+                <Image Source="/resimler/bol.png" Margin="9"></Image>
+            </Border>
+            <Border BorderThickness="1" Margin="255,394,0,0" Background="#FFE74C3C" CornerRadius="20 "  HorizontalAlignment="Left" Width="100" Height="100" VerticalAlignment="Top">
+                <Image Source="/resimler/eksi.png" Margin="9"></Image>
+            </Border>
+        </Grid>
+    </Grid>
+
+
+</phone:PhoneApplicationPage>

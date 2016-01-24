@@ -1,0 +1,74 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="Cahil_misin.MainPage"
+    xmlns:UI="clr-namespace:Microsoft.Advertising.Mobile.UI;assembly=Microsoft.Advertising.Mobile.UI"
+
+    xmlns:GoogleAds="clr-namespace:GoogleAds;assembly=GoogleAds"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+      SupportedOrientations="Portrait" Orientation="Portrait"
+    shell:SystemTray.IsVisible="True"    shell:SystemTray.BackgroundColor="#FFF39C12" 
+    shell:SystemTray.ForegroundColor="#2c3e50" 
+    shell:SystemTray.Opacity="1" Foreground="#FF95A5A6" BorderBrush="#FF95A5A6" Background="#FF95A5A6" BackKeyPress="PhoneApplicationPage_BackKeyPress">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid Name="Anagrid" Background="#FFECF0F1">
+            <Border BorderThickness="1" Margin="112,332,268,0" Background="#FFE67E22" CornerRadius="20 " Name="play" Tap="play_Tap" Height="100" VerticalAlignment="Top">
+                <Image HorizontalAlignment="Left" Source="/resimler/Play.png" Stretch="UniformToFill" Margin="13,9,0,9" Width="80" RenderTransformOrigin="0.472,0.425" />
+            </Border>
+            <Border BorderThickness="1" Height="100" Margin="268,332,112,0" VerticalAlignment="Top" Background="#FF2ECC71" CornerRadius="20" Tap="Border_Tap">
+                <Image Height="82" Margin="9,7,9,0" VerticalAlignment="Top" Source="/resimler/Ranking.png"/>
+            </Border>
+            <TextBlock x:Name="textBlock" Margin="10,98,10,0" TextWrapping="Wrap" Text="Games of Math" VerticalAlignment="Top" Height="93" FontSize="50" TextAlignment="Center" Foreground="#FF2C3E50" IsHitTestVisible="False" TextOptions.TextHintingMode="Animated" TextTrimming="WordEllipsis" FontStretch="UltraCondensed" LineStackingStrategy="BlockLineHeight" FontFamily="Times New Roman" FontWeight="Bold" FontStyle="Italic" RenderTransformOrigin="0.5,0.5">
+                <TextBlock.RenderTransform>
+                    <CompositeTransform/>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <Image x:Name="about" Margin="420,668,10,0" Source="/resimler/about.png" Tap="about_Tap"/>
+            <Image HorizontalAlignment="Left" Margin="328,668,0,0" Width="50" Source="/resimler/begen.png" RenderTransformOrigin="-0.22,0.649" Tap="Image_Tap"/>
+            <TextBlock HorizontalAlignment="Left" Margin="112,437,0,0" TextWrapping="Wrap" Text="PLAY" VerticalAlignment="Top" Width="100" Foreground="#FF2C3E50" TextAlignment="Center" FontFamily="Times New Roman" FontSize="20"/>
+            <TextBlock HorizontalAlignment="Left" Margin="268,432,0,0" TextWrapping="Wrap" Text="High Scores" VerticalAlignment="Top" Width="100" Foreground="#FF2C3E50" TextAlignment="Center" FontFamily="Times New Roman" FontSize="20"/>
+            <MediaElement x:Name="media" HorizontalAlignment="Left" Height="100" Margin="63,581,0,0" VerticalAlignment="Top" Width="100" Source="/sesler/click2.wav" AutoPlay="False"/>
+          
+
+        </Grid>
+
+        <Grid x:Name="grid1" Grid.RowSpan="2" Background="#FF2C3E50" Opacity="0.4" Visibility="Collapsed"/>
+        <Grid x:Name="grid2" Opacity="0.95" Background="#FFECF0F1" Visibility="Collapsed">
+
+            <TextBlock x:Name="txtmessega" Margin="10,16,87,697" TextWrapping="Wrap" Text="Lord of the Math" Foreground="#FF2C3E50" FontSize="36" TextAlignment="Center" FontFamily="Times New Roman" FontStyle="Italic" RenderTransformOrigin="0.5,0.5"/>
+            <Image x:Name="hakkındaçıkış" Height="75" Margin="399,6,6,0" VerticalAlignment="Top" Source="/resimler/close.png" Tap="hakkındaçıkış_Tap"/>
+            <TextBlock HorizontalAlignment="Left" Margin="399,726,0,0" TextWrapping="Wrap" Text="v1.0" VerticalAlignment="Top" Width="71" Height="32" FontSize="22" Foreground="#FF314354" Opacity="0.4"/>
+            <HyperlinkButton Content="ugurkubat1@yandex.com" Margin="0,521,0,0" VerticalAlignment="Top" Foreground="#FF314354" Background="{x:Null}" FontFamily="Times New Roman" FontSize="30" Click="HyperlinkButton_Click"/>
+            <TextBlock x:Name="txtmessega_Copy" Margin="0,460,0,247" TextWrapping="Wrap" Text="Contact" Foreground="#FF2C3E50" FontSize="30" TextAlignment="Center" FontFamily="Times New Roman" FontStyle="Italic"/>
+            <HyperlinkButton Content="Do you like the application" Margin="0,593,0,0" VerticalAlignment="Top" Foreground="#FF314354" Background="{x:Null}" FontFamily="Times New Roman" FontSize="30" Click="HyperlinkButton_Click_1"/>
+            <TextBlock x:Name="txtmessega_Copy1" Margin="0,698,0,10" TextWrapping="Wrap" Foreground="#FF2C3E50" FontSize="21.333" FontFamily="Times New Roman" FontStyle="Italic" Text="©2015 Uğur KUBAT All rights reserved" Opacity="0.5" TextAlignment="Center"/>
+            <Image x:Name="image" Height="100" Margin="-6,247,6,0" VerticalAlignment="Top" Source="/resimler/i.jpg" Tap="image_Tap_1"/>
+            <TextBlock x:Name="txtmessega_Copy2" Margin="0,136,0,571" TextWrapping="Wrap" Foreground="#FF2C3E50" FontSize="30" TextAlignment="Center" FontFamily="Times New Roman" FontStyle="Italic" Text="Do you want to support developer ?"/>
+            <TextBlock x:Name="txtmessega_Copy3" Margin="0,197,0,526" TextWrapping="Wrap" Text="Click Button" Foreground="#FF2C3E50" FontSize="30" TextAlignment="Center" FontFamily="Times New Roman" FontStyle="Italic"/>
+        </Grid>
+
+        <Grid x:Name="grid4" Background="#FFECF0F1" Opacity="0.7" Visibility="Collapsed"/>
+        <Grid x:Name="grid3" Background="#FF95A5A6" Margin="0,136,0,359" Visibility="Collapsed">
+
+            <TextBlock  Margin="0,34,0,135" TextWrapping="Wrap" Text="Are you sure you want to exit ?" Foreground="#FF2C3E50" FontSize="36" TextAlignment="Center" FontFamily="Times New Roman" FontStyle="Italic" RenderTransformOrigin="0.5,0.5"/>
+            <Border BorderThickness="1" Height="125" Margin="0,112,90,0" VerticalAlignment="Top" Background="#FF2ECC71" CornerRadius="20" HorizontalAlignment="Right" Width="125" Tap="Border_Tap_2">
+                <TextBlock  Margin="0,34,0,9" TextWrapping="Wrap" Text="NO" Foreground="#FF2C3E50" FontSize="36" TextAlignment="Center" FontFamily="Times New Roman" FontStyle="Italic" RenderTransformOrigin="0.5,0.5"/>
+            </Border>
+            <Border BorderThickness="1" Height="125" Margin="90,112,0,0" VerticalAlignment="Top" Background="#FFE74C3C" CornerRadius="20" HorizontalAlignment="Left" Width="125" Tap="Border_Tap_1">
+                <TextBlock  Margin="0,34,0,9" TextWrapping="Wrap" Text="YES" Foreground="#FF2C3E50" FontSize="36" TextAlignment="Center" FontFamily="Times New Roman" FontStyle="Italic" RenderTransformOrigin="0.5,0.5"/>
+            </Border>
+        </Grid>
+    </Grid>
+
+
+
+
+
+
+</phone:PhoneApplicationPage>

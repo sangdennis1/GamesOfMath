@@ -1,0 +1,193 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="Lord_of_The_Math.Sayfalar.trueorfalselevel"
+
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="False"    shell:SystemTray.BackgroundColor="#FFF39C12" 
+    shell:SystemTray.ForegroundColor="#2c3e50" 
+    shell:SystemTray.Opacity="1"  BorderBrush="#FFF39C12" Background="#FFF39C12" Foreground="#FFCBB9B9" BackKeyPress="PhoneApplicationPage_BackKeyPress">
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid x:Name="ContentPanel" Background="#FFECF0F1" Grid.RowSpan="2">
+            <Grid Background="Black" Height="126" VerticalAlignment="Top">
+                <Canvas x:Name="campaign_" Margin="0,0,240,0" Background="#FFE67E22" Tap="campaign__Tap">
+                    <TextBlock TextWrapping="Wrap" Text="CAMPAIGN MODE" Canvas.Top="10" Height="106" Width="230" Foreground="#FF2C3E50" FontSize="36" TextAlignment="Center"/>
+                    <Border BorderThickness="1" Height="126" Canvas.Left="235" Width="5" Background="#FFF39C12"/>
+                    <Image x:Name="imgyesil" Height="31" Canvas.Left="70" Canvas.Top="103" Width="100" Source="/resimler/ok.png"/>
+                </Canvas>
+                <Canvas x:Name="Limitless" Height="126" Margin="240,0,0,0" VerticalAlignment="Top" Background="#FFE67E22" Tap="Limitless_Tap">
+                    <TextBlock Canvas.Left="10" TextWrapping="Wrap" Text="LIMITLESS MODE" Height="106" Width="220" Canvas.Top="10" FontSize="36" TextAlignment="Center" Foreground="#FF2C3E50"/>
+                    <Image x:Name="imgkırmızı" Source="/resimler/ok.png" Height="31" Canvas.Left="74" Canvas.Top="105" Width="100" Opacity="0"/>
+                </Canvas>
+            </Grid>
+            <!--kırmızı burda-->
+            <Grid x:Name="kırmızı" HorizontalAlignment="Left" Height="669" Margin="0,131,0,0" VerticalAlignment="Top" Width="480" Background="#FFECECEC" Visibility="Collapsed">
+                <Grid x:Name="ContentPanel_Copy" Background="#FFECF0F1" Height="669" VerticalAlignment="Top">
+                    <Grid HorizontalAlignment="Left" Width="480" Height="213" VerticalAlignment="Top" Margin="0,10,0,0">
+                        <Border BorderThickness="1" Margin="271,41,109,0" Background="#FFE67E22" CornerRadius="20 " x:Name="play" Height="100" VerticalAlignment="Top" Tap="play_Tap" >
+                            <Image HorizontalAlignment="Left" Source="/resimler/Play.png" Stretch="UniformToFill" Margin="13,9,0,9" Width="80" RenderTransformOrigin="0.472,0.425" />
+                        </Border>
+                        <TextBlock Margin="36,60,240,0" TextWrapping="Wrap" Text="EASY" VerticalAlignment="Top" Height="55" Foreground="#FF2C3E50" FontSize="36" FontFamily="Times New Roman" FontStyle="Italic" TextAlignment="Center"/>
+                        <Image x:Name="about" Margin="420,20,10,0" Source="/resimler/about.png" Height="50" VerticalAlignment="Top" Tap="about_Tap"/>
+                    </Grid>
+                    <Grid HorizontalAlignment="Left" Margin="0,233,0,0" Width="480" Height="213" VerticalAlignment="Top">
+                        <Border BorderThickness="1" Margin="271,41,109,0" Background="#FFE67E22" CornerRadius="20 " x:Name="play11" Height="100" VerticalAlignment="Top" Tap="play11_Tap" >
+                            <Image HorizontalAlignment="Left" Source="/resimler/Play.png" Stretch="UniformToFill" Margin="13,9,0,9" Width="80" RenderTransformOrigin="0.472,0.425" />
+                        </Border>
+                        <TextBlock Margin="36,60,236,0" TextWrapping="Wrap" Text="MEDIUM" VerticalAlignment="Top" Height="49" Foreground="#FF2C3E50" FontSize="36" FontFamily="Times New Roman" FontStyle="Italic" TextAlignment="Center"/>
+                        <Image x:Name="about1" Margin="420,20,10,0" Source="/resimler/about.png" Height="50" VerticalAlignment="Top" Tap="about1_Tap"/>
+                    </Grid>
+
+                    <Grid HorizontalAlignment="Left" Margin="0,456,0,0" Width="480" Height="213" VerticalAlignment="Top">
+                        <Border BorderThickness="1" Margin="271,41,109,0" Background="#FFE67E22" CornerRadius="20 " x:Name="play13" Height="100" VerticalAlignment="Top" Tap="play13_Tap" >
+                            <Image HorizontalAlignment="Left" Source="/resimler/Play.png" Stretch="UniformToFill" Margin="13,9,0,9" Width="80" RenderTransformOrigin="0.472,0.425" />
+                        </Border>
+                        <TextBlock Margin="29,60,214,0" TextWrapping="Wrap" Foreground="#FF2C3E50" FontSize="36" FontFamily="Times New Roman" FontStyle="Italic" Height="59" VerticalAlignment="Top" TextAlignment="Center">
+            				<Run Text="HARD"/>
+                        </TextBlock>
+                        <Image x:Name="about2" Margin="420,20,10,0" Source="/resimler/about.png" Height="50" VerticalAlignment="Top" Tap="about2_Tap"/>
+                    </Grid>
+                    <Grid HorizontalAlignment="Left" Margin="-59,223,-27,0" Width="566" RenderTransformOrigin="0.5,0.5" Background="White" Height="5" VerticalAlignment="Top"/>
+                    <Grid HorizontalAlignment="Left" Margin="-59,446,-27,0" Width="566" RenderTransformOrigin="0.5,0.5" Background="White" Height="5" VerticalAlignment="Top"/>
+
+                </Grid>
+            </Grid>
+            <!--Yeşil burda-->
+            <Grid x:Name="yesil" HorizontalAlignment="Left" Height="674" Margin="0,126,0,0" VerticalAlignment="Top" Width="480" Background="#FFECF0F1" >
+                <Border BorderThickness="1" Margin="132,10,248,564" Background="#FFE67E22" CornerRadius="20 " x:Name="play1" Tap="play1_Tap" >
+                    <Image HorizontalAlignment="Left" Source="/resimler/Play.png" Stretch="UniformToFill" Margin="13,9,0,9" Width="80" RenderTransformOrigin="0.472,0.425" />
+                </Border>
+                <Border BorderThickness="1" Background="White" Margin="-15,110,-14,559" RenderTransformOrigin="0.5,0.5">
+                    <Border.RenderTransform>
+                        <CompositeTransform ScaleY="-1"/>
+                    </Border.RenderTransform>
+
+                </Border>
+                <Border BorderThickness="1" Background="White" Margin="235,0,240,118"/>
+                <TextBlock HorizontalAlignment="Left" Margin="20,18,0,0" TextWrapping="Wrap" Text="level 1" VerticalAlignment="Top" Height="42" Width="90" Foreground="#FF2C3E50" FontSize="30" FontStyle="Italic" FontFamily="Times New Roman"/>
+                <Border BorderThickness="1" Background="White" Margin="-15,220,-14,449" RenderTransformOrigin="0.5,0.5">
+                    <Border.RenderTransform>
+                        <CompositeTransform ScaleY="-1"/>
+                    </Border.RenderTransform>
+
+                </Border>
+                <Border BorderThickness="1" Margin="380,10,0,564" Background="#FFE67E22" CornerRadius="20 " x:Name="play2" Tap="play2_Tap" >
+                    <Image HorizontalAlignment="Left" Source="/resimler/Play.png" Stretch="UniformToFill" Margin="13,9,0,9" Width="80" RenderTransformOrigin="0.472,0.425" />
+                </Border>
+                <TextBlock HorizontalAlignment="Left" Margin="273,18,0,0" TextWrapping="Wrap" Text="level 2" VerticalAlignment="Top" Height="42" Width="90" Foreground="#FF2C3E50" FontSize="30" FontStyle="Italic" FontFamily="Times New Roman"/>
+                <Border BorderThickness="1" Margin="-13,440,-16,228" RenderTransformOrigin="0.5,0.5" Background="White">
+                    <Border.RenderTransform>
+                        <CompositeTransform ScaleY="-1"/>
+                    </Border.RenderTransform>
+
+                </Border>
+                <Border BorderThickness="1" Background="White" Margin="-17,330,-12,338" RenderTransformOrigin="0.5,0.5">
+                    <Border.RenderTransform>
+                        <CompositeTransform ScaleY="-1"/>
+                    </Border.RenderTransform>
+
+                </Border>
+                <Border BorderThickness="1" Margin="-23,550,-6,118" RenderTransformOrigin="0.5,0.5" Background="White">
+                    <Border.RenderTransform>
+                        <CompositeTransform ScaleY="-1"/>
+                    </Border.RenderTransform>
+
+                </Border>
+                <TextBlock HorizontalAlignment="Left" Margin="20,128,0,0" TextWrapping="Wrap" Text="level 3" VerticalAlignment="Top" Height="42" Width="90" Foreground="#FF2C3E50" FontSize="30" FontStyle="Italic" FontFamily="Times New Roman"/>
+                <Border BorderThickness="1" Margin="130,120,250,454" Background="#FFE67E22" CornerRadius="20 " x:Name="play3" Tap="play3_Tap"  >
+                    <Image HorizontalAlignment="Left" Source="/resimler/Play.png" Stretch="UniformToFill" Margin="13,9,0,9" Width="80" RenderTransformOrigin="0.472,0.425" />
+                </Border>
+                <Border BorderThickness="1" Margin="132,340,248,234" Background="#FFE67E22" CornerRadius="20 " x:Name="play7" Tap="play7_Tap"  >
+                    <Image HorizontalAlignment="Left" Source="/resimler/Play.png" Stretch="UniformToFill" Margin="13,9,0,9" Width="80" RenderTransformOrigin="0.472,0.425" />
+                </Border>
+                <Border BorderThickness="1" Margin="130,230,250,344" Background="#FFE67E22" CornerRadius="20 " x:Name="play5" Tap="play5_Tap"  >
+                    <Image HorizontalAlignment="Left" Source="/resimler/Play.png" Stretch="UniformToFill" Margin="13,9,0,9" Width="80" RenderTransformOrigin="0.472,0.425" />
+                </Border>
+                <Border BorderThickness="1" Margin="130,450,250,124" Background="#FFE67E22" CornerRadius="20 " x:Name="play9" Tap="play9_Tap"  >
+                    <Image HorizontalAlignment="Left" Source="/resimler/Play.png" Stretch="UniformToFill" Margin="13,9,0,9" Width="80" RenderTransformOrigin="0.472,0.425" />
+                </Border>
+                <Border BorderThickness="1" Margin="380,120,0,454" Background="#FFE67E22" CornerRadius="20 " x:Name="play4" Tap="play4_Tap"  >
+                    <Image HorizontalAlignment="Left" Source="/resimler/Play.png" Stretch="UniformToFill" Margin="13,9,0,9" Width="80" RenderTransformOrigin="0.472,0.425" />
+                </Border>
+                <Border BorderThickness="1" Margin="380,340,0,234" Background="#FFE67E22" CornerRadius="20 " x:Name="play8" Tap="play8_Tap"  >
+                    <Image HorizontalAlignment="Left" Source="/resimler/Play.png" Stretch="UniformToFill" Margin="13,9,0,9" Width="80" RenderTransformOrigin="0.472,0.425" />
+                </Border>
+                <Border BorderThickness="1" Margin="380,230,0,344" Background="#FFE67E22" CornerRadius="20 " x:Name="play6" Tap="play6_Tap"  >
+                    <Image HorizontalAlignment="Left" Source="/resimler/Play.png" Stretch="UniformToFill" Margin="13,9,0,9" Width="80" RenderTransformOrigin="0.472,0.425" />
+                </Border>
+                <Border BorderThickness="1" Margin="380,450,0,124" Background="#FFE67E22" CornerRadius="20 " x:Name="play10" Tap="play10_Tap"  >
+                    <Image HorizontalAlignment="Left" Source="/resimler/Play.png" Stretch="UniformToFill" Margin="13,9,0,9" Width="80" RenderTransformOrigin="0.472,0.425" />
+                </Border>
+                <TextBlock HorizontalAlignment="Left" Margin="273,348,0,0" TextWrapping="Wrap" Text="level 8" VerticalAlignment="Top" Height="42" Width="90" Foreground="#FF2C3E50" FontSize="30" FontStyle="Italic" FontFamily="Times New Roman"/>
+                <TextBlock HorizontalAlignment="Left" Margin="273,238,0,0" TextWrapping="Wrap" Text="level 6" VerticalAlignment="Top" Height="42" Width="90" Foreground="#FF2C3E50" FontSize="30" FontStyle="Italic" FontFamily="Times New Roman" RenderTransformOrigin="0.687,0.559"/>
+                <TextBlock HorizontalAlignment="Left" Margin="20,238,0,0" TextWrapping="Wrap" Text="level 5" VerticalAlignment="Top" Height="42" Width="90" Foreground="#FF2C3E50" FontSize="30" FontStyle="Italic" FontFamily="Times New Roman"/>
+                <TextBlock HorizontalAlignment="Left" Margin="273,128,0,0" TextWrapping="Wrap" Text="level 4" VerticalAlignment="Top" Height="42" Width="90" Foreground="#FF2C3E50" FontSize="30" FontStyle="Italic" FontFamily="Times New Roman"/>
+                <TextBlock Margin="272,458,106,0" TextWrapping="Wrap" Text="level 10" VerticalAlignment="Top" Height="42" Foreground="#FF2C3E50" FontSize="30" FontStyle="Italic" FontFamily="Times New Roman"/>
+                <TextBlock HorizontalAlignment="Left" Margin="20,458,0,0" TextWrapping="Wrap" Text="level 9" VerticalAlignment="Top" Height="42" Width="90" Foreground="#FF2C3E50" FontSize="30" FontStyle="Italic" FontFamily="Times New Roman"/>
+                <TextBlock HorizontalAlignment="Left" Margin="20,348,0,0" TextWrapping="Wrap" Text="level 7" VerticalAlignment="Top" Height="42" Width="90" Foreground="#FF2C3E50" FontSize="30" FontStyle="Italic" FontFamily="Times New Roman"/>
+                <Image x:Name="open1" Height="50" Margin="33,60,386,0" VerticalAlignment="Top" Source="/resimler/open.png"/>
+                <Image x:Name="okey1" Height="50" Margin="33,60,386,0" VerticalAlignment="Top" Source="/resimler/tick.png" Visibility="Collapsed"/>
+                <Image x:Name="open2" Height="50" Margin="281,60,138,0" VerticalAlignment="Top" Source="/resimler/open.png" Visibility="Collapsed"/>
+                <Image x:Name="close2" Height="50" Margin="281,60,138,0" VerticalAlignment="Top" Source="/resimler/closed.png"/>
+                <Image x:Name="okey2" Height="50" Margin="281,60,138,0" VerticalAlignment="Top" Source="/resimler/tick.png" Visibility="Collapsed"/>
+                <Image x:Name="close9" Height="50" Margin="33,500,386,0" VerticalAlignment="Top" Source="/resimler/closed.png"/>
+                <Image x:Name="close10" Height="50" Margin="281,500,138,0" VerticalAlignment="Top" Source="/resimler/closed.png"/>
+                <Image x:Name="close7" Height="50" Margin="33,390,386,0" VerticalAlignment="Top" Source="/resimler/closed.png"/>
+                <Image x:Name="close8" Height="50" Margin="281,390,138,0" VerticalAlignment="Top" Source="/resimler/closed.png" RenderTransformOrigin="0.97,6.019"/>
+                <Image x:Name="close5" Height="50" Margin="33,280,386,0" VerticalAlignment="Top" Source="/resimler/closed.png"/>
+                <Image x:Name="close6" Height="50" Margin="281,280,138,0" VerticalAlignment="Top" Source="/resimler/closed.png"/>
+                <Image x:Name="close3" Height="50" Margin="33,170,386,0" VerticalAlignment="Top" Source="/resimler/closed.png"/>
+                <Image x:Name="close4" Height="50" Margin="281,170,138,0" VerticalAlignment="Top" Source="/resimler/closed.png"/>
+                <Image x:Name="open9" Height="50" Margin="33,500,386,0" VerticalAlignment="Top" Source="/resimler/open.png" Visibility="Collapsed"/>
+                <Image x:Name="open10" Height="50" Margin="281,500,138,0" VerticalAlignment="Top" Source="/resimler/open.png" Visibility="Collapsed"/>
+                <Image x:Name="open7" Height="50" Margin="33,390,386,0" VerticalAlignment="Top" Source="/resimler/open.png" Visibility="Collapsed"/>
+                <Image x:Name="open8" Height="50" Margin="281,390,138,0" VerticalAlignment="Top" Source="/resimler/open.png" RenderTransformOrigin="0.97,6.019" Visibility="Collapsed"/>
+                <Image x:Name="open5" Height="50" Margin="33,280,386,0" VerticalAlignment="Top" Source="/resimler/open.png" Visibility="Collapsed"/>
+                <Image x:Name="open6" Height="50" Margin="281,280,138,0" VerticalAlignment="Top" Source="/resimler/open.png" Visibility="Collapsed"/>
+                <Image x:Name="open3" Height="50" Margin="33,170,386,0" VerticalAlignment="Top" Source="/resimler/open.png" Visibility="Collapsed"/>
+                <Image x:Name="open4" Height="50" Margin="281,170,138,0" VerticalAlignment="Top" Source="/resimler/open.png" Visibility="Collapsed"/>
+                <Image x:Name="okey9" Height="50" Margin="33,500,386,0" VerticalAlignment="Top" Source="/resimler/tick.png" Visibility="Collapsed"/>
+                <Image x:Name="okey10" Height="50" Margin="281,500,138,0" VerticalAlignment="Top" Source="/resimler/tick.png" Visibility="Collapsed"/>
+                <Image x:Name="okey7" Height="50" Margin="33,390,386,0" VerticalAlignment="Top" Source="/resimler/tick.png" Visibility="Collapsed"/>
+                <Image x:Name="okey8" Height="50" Margin="281,390,138,0" VerticalAlignment="Top" Source="/resimler/tick.png" RenderTransformOrigin="0.97,6.019" Visibility="Collapsed"/>
+                <Image x:Name="okey5" Height="50" Margin="33,280,386,0" VerticalAlignment="Top" Source="/resimler/tick.png" Visibility="Collapsed"/>
+                <Image x:Name="okey6" Height="50" Margin="281,280,138,0" VerticalAlignment="Top" Source="/resimler/tick.png" Visibility="Collapsed"/>
+                <Image x:Name="okey3" Height="50" Margin="33,170,386,0" VerticalAlignment="Top" Source="/resimler/tick.png" Visibility="Collapsed"/>
+                <Image x:Name="okey4" Height="50" Margin="281,170,138,0" VerticalAlignment="Top" Source="/resimler/tick.png" Visibility="Collapsed"/>
+                <Image x:Name="okey11" Height="50" Margin="119,614,300,0" VerticalAlignment="Top" Source="/resimler/tick.png" Visibility="Collapsed"/>
+                <Image x:Name="open11" Height="50" Margin="119,614,300,0" VerticalAlignment="Top" Source="/resimler/open.png" Visibility="Collapsed"/>
+                <Image x:Name="close11" Height="50" Margin="119,614,300,0" VerticalAlignment="Top" Source="/resimler/closed.png"/>
+                <Border BorderThickness="1" Margin="325,564,55,10" Background="#FFE67E22" CornerRadius="20 " x:Name="play12" Tap="play12_Tap"   >
+                    <Image HorizontalAlignment="Left" Source="/resimler/Play.png" Stretch="UniformToFill" Margin="13,9,0,9" Width="80" RenderTransformOrigin="0.472,0.425" />
+                </Border>
+                <TextBlock Margin="0,580,160,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="42" Foreground="#FF2C3E50" FontSize="30" FontStyle="Italic" FontFamily="Times New Roman" TextAlignment="Center">
+                	<Run Text="Lord of the Levels"/>
+                
+                </TextBlock>
+            </Grid>
+
+
+        </Grid>
+        <!--i bölümleri-->
+
+        <Grid x:Name="grid1" Grid.RowSpan="2" Background="#FF2C3E50" Opacity="0.4" Tap="grid1_Tap" Visibility="Collapsed"/>
+        <Grid x:Name="grid2" Margin="0,0,0,672" Grid.RowSpan="2" Opacity="0.95" Background="#FFECF0F1" Visibility="Collapsed">
+            <TextBlock x:Name="txtmessega" HorizontalAlignment="Left" Margin="0,15,0,0" TextWrapping="Wrap" Text="Please,Complete the previous levels." Width="390" Foreground="#FF2C3E50" FontSize="30" TextAlignment="Center" FontFamily="Times New Roman" FontStyle="Italic"/>
+            <Image Height="75" Margin="399,6,6,0" VerticalAlignment="Top" Source="/resimler/close.png" Tap="Image_Tap"/>
+        </Grid>
+    </Grid>
+
+
+</phone:PhoneApplicationPage>

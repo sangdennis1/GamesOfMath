@@ -1,0 +1,95 @@
+C:\Users\uğur\Desktop\Projeler\Cahil misin\Cahil misin\Bin\Debug\Assets\ApplicationIcon.png
+C:\Users\uğur\Desktop\Projeler\Cahil misin\Cahil misin\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\uğur\Desktop\Projeler\Cahil misin\Cahil misin\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\uğur\Desktop\Projeler\Cahil misin\Cahil misin\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\uğur\Desktop\Projeler\Cahil misin\Cahil misin\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\uğur\Desktop\Projeler\Cahil misin\Cahil misin\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\uğur\Desktop\Projeler\Cahil misin\Cahil misin\Bin\Debug\Cahil misin.dll
+C:\Users\uğur\Desktop\Projeler\Cahil misin\Cahil misin\Bin\Debug\Cahil misin.pdb
+C:\Users\uğur\Desktop\Projeler\Cahil misin\Cahil misin\Bin\Debug\AppManifest.xaml
+C:\Users\uğur\Desktop\Projeler\Cahil misin\Cahil misin\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\uğur\Desktop\Projeler\Cahil misin\Cahil misin\Bin\Debug\Cahil_misin_Debug_AnyCPU.xap
+C:\Users\uğur\Desktop\Projeler\Cahil misin\Cahil misin\obj\Debug\App.g.cs
+C:\Users\uğur\Desktop\Projeler\Cahil misin\Cahil misin\obj\Debug\MainPage.g.cs
+C:\Users\uğur\Desktop\Projeler\Cahil misin\Cahil misin\obj\Debug\Cahil misin.g.resources
+C:\Users\uğur\Desktop\Projeler\Cahil misin\Cahil misin\obj\Debug\Cahil_misin.Resources.AppResources.resources
+C:\Users\uğur\Desktop\Projeler\Cahil misin\Cahil misin\obj\Debug\Cahil misin.csproj.GenerateResource.Cache
+C:\Users\uğur\Desktop\Projeler\Cahil misin\Cahil misin\obj\Debug\Cahil misin.dll
+C:\Users\uğur\Desktop\Projeler\Cahil misin\Cahil misin\obj\Debug\Cahil misin.pdb
+C:\Users\uğur\Desktop\Projeler\Cahil misin\Cahil misin\obj\Debug\XapCacheFile.xml
+C:\Users\uğur\Desktop\Projeler\Cahil misin\Cahil misin\obj\Debug\Yarışma.g.cs
+C:\Users\uğur\Desktop\Projeler\Cahil misin\Cahil misin\obj\Debug\Sonuc.g.cs
+C:\Users\uğur\Desktop\Projeler\Cahil misin\Cahil misin\obj\Debug\Hakkında.g.cs
+C:\Users\uğur\Desktop\Projeler\Cahil misin\Cahil misin\Bin\Debug\GoogleAds.dll
+C:\Users\uğur\Desktop\Projeler\Cahil misin\Cahil misin\Bin\Debug\GoogleAds.xml
+C:\Users\uğur\Desktop\Projeler\Cahil misin\Cahil misin\obj\Debug\Cahil misin.csprojResolveAssemblyReference.cache
+B:\OneDrive\Projeler\Projeler\Cahil misin\Cahil misin\Bin\Debug\Assets\ApplicationIcon.png
+B:\OneDrive\Projeler\Projeler\Cahil misin\Cahil misin\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+B:\OneDrive\Projeler\Projeler\Cahil misin\Cahil misin\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+B:\OneDrive\Projeler\Projeler\Cahil misin\Cahil misin\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+B:\OneDrive\Projeler\Projeler\Cahil misin\Cahil misin\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+B:\OneDrive\Projeler\Projeler\Cahil misin\Cahil misin\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+B:\OneDrive\Projeler\Projeler\Cahil misin\Cahil misin\Bin\Debug\Cahil misin.dll
+B:\OneDrive\Projeler\Projeler\Cahil misin\Cahil misin\Bin\Debug\Cahil misin.pdb
+B:\OneDrive\Projeler\Projeler\Cahil misin\Cahil misin\Bin\Debug\AppManifest.xaml
+B:\OneDrive\Projeler\Projeler\Cahil misin\Cahil misin\Bin\Debug\Properties\WMAppManifest.xml
+B:\OneDrive\Projeler\Projeler\Cahil misin\Cahil misin\Bin\Debug\Cahil_misin_Debug_AnyCPU.xap
+B:\OneDrive\Projeler\Projeler\Cahil misin\Cahil misin\Bin\Debug\GoogleAds.xml
+B:\OneDrive\Projeler\Projeler\Cahil misin\Cahil misin\obj\Debug\Cahil misin.csprojResolveAssemblyReference.cache
+B:\OneDrive\Projeler\Projeler\Cahil misin\Cahil misin\obj\Debug\App.g.cs
+B:\OneDrive\Projeler\Projeler\Cahil misin\Cahil misin\obj\Debug\Hakkında.g.cs
+B:\OneDrive\Projeler\Projeler\Cahil misin\Cahil misin\obj\Debug\MainPage.g.cs
+B:\OneDrive\Projeler\Projeler\Cahil misin\Cahil misin\obj\Debug\Sonuc.g.cs
+B:\OneDrive\Projeler\Projeler\Cahil misin\Cahil misin\obj\Debug\Yarışma.g.cs
+B:\OneDrive\Projeler\Projeler\Cahil misin\Cahil misin\obj\Debug\Cahil misin.g.resources
+B:\OneDrive\Projeler\Projeler\Cahil misin\Cahil misin\obj\Debug\Cahil_misin.Resources.AppResources.resources
+B:\OneDrive\Projeler\Projeler\Cahil misin\Cahil misin\obj\Debug\Cahil misin.csproj.GenerateResource.Cache
+B:\OneDrive\Projeler\Projeler\Cahil misin\Cahil misin\obj\Debug\Cahil misin.dll
+B:\OneDrive\Projeler\Projeler\Cahil misin\Cahil misin\obj\Debug\Cahil misin.pdb
+B:\OneDrive\Projeler\Projeler\Cahil misin\Cahil misin\obj\Debug\XapCacheFile.xml
+D:\Masaüstü\Cahil misin\Cahil misin\Bin\Debug\Assets\ApplicationIcon.png
+D:\Masaüstü\Cahil misin\Cahil misin\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+D:\Masaüstü\Cahil misin\Cahil misin\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+D:\Masaüstü\Cahil misin\Cahil misin\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+D:\Masaüstü\Cahil misin\Cahil misin\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+D:\Masaüstü\Cahil misin\Cahil misin\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+D:\Masaüstü\Cahil misin\Cahil misin\Bin\Debug\Cahil misin.dll
+D:\Masaüstü\Cahil misin\Cahil misin\Bin\Debug\Cahil misin.pdb
+D:\Masaüstü\Cahil misin\Cahil misin\Bin\Debug\AppManifest.xaml
+D:\Masaüstü\Cahil misin\Cahil misin\Bin\Debug\Properties\WMAppManifest.xml
+D:\Masaüstü\Cahil misin\Cahil misin\Bin\Debug\Cahil_misin_Debug_AnyCPU.xap
+D:\Masaüstü\Cahil misin\Cahil misin\Bin\Debug\GoogleAds.xml
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Debug\Cahil misin.csprojResolveAssemblyReference.cache
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Debug\App.g.cs
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Debug\Highscore.g.cs
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Debug\MainPage.g.cs
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Debug\Sayfalar\classicgame.g.cs
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Debug\Sayfalar\classicgamelevel.g.cs
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Debug\Sayfalar\classicgamelimitless.g.cs
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Debug\Sayfalar\GameOver.g.cs
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Debug\Sayfalar\Gameoverclassic.g.cs
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Debug\Sayfalar\GameOverreverse.g.cs
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Debug\Sayfalar\Levelbitti.g.cs
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Debug\Sayfalar\Levelbitticlassic.g.cs
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Debug\Sayfalar\Levelbittireverse.g.cs
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Debug\Sayfalar\Oyunlar.g.cs
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Debug\Sayfalar\reservegame.g.cs
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Debug\Sayfalar\reversegamelevel.g.cs
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Debug\Sayfalar\reversegamelimitless.g.cs
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Debug\Sayfalar\sürebitti.g.cs
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Debug\Sayfalar\sürebitticlassic.g.cs
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Debug\Sayfalar\sürebittireverse.g.cs
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Debug\Sayfalar\TrueorFalse.g.cs
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Debug\Sayfalar\trueorfalselevel.g.cs
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Debug\Sayfalar\Trueorfalselimitless.g.cs
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Debug\Cahil misin.g.resources
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Debug\Cahil_misin.Resources.AppResources.resources
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Debug\Cahil misin.csproj.GenerateResource.Cache
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Debug\Cahil misin.dll
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Debug\Cahil misin.pdb
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Debug\XapCacheFile.xml
+D:\Masaüstü\Cahil misin\Cahil misin\obj\Debug\Sayfalar\Cikis.g.cs
+D:\Masaüstü\Cahil misin\Cahil misin\Bin\Debug\System.Net.Http.dll
+D:\Masaüstü\Cahil misin\Cahil misin\Bin\Debug\System.Net.Http.Primitives.dll
+D:\Masaüstü\Cahil misin\Cahil misin\Bin\Debug\System.Net.Http.xml
+D:\Masaüstü\Cahil misin\Cahil misin\Bin\Debug\System.Net.Http.Primitives.xml
